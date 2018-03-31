@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'Playfair Display', serif;
+     
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.menu{
+    display: block;
+    text-align: center;
+}
+.menu-item{
+    margin: 50px;
+    display: inline-block;
+}
+.menu-item a{
+    font-size: 14pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: center;
+    text-decoration: none;
+
+}
+.menu-item a:hover{
+    color: #03a9f4;
+}
+.blocks{
+    display: block;
+    margin-left: 180px;
+}
+.block1, .block2, .block3, .block4, .block5, .block6{
+    width: 420px;
+    display: inline-block;
+    padding-top: 120px;
+}
+.block2, .block4, .block6{
+    margin-left: 66px;
+}
+.caption{
+    padding-top: 25px;
+font-size: 25pt;
+color: rgba(98, 98, 98, 255);
+text-align: left;
+}
+p{
+font-size: 14pt;
+color: rgba(180, 173, 158, 255);
+text-align: left;
+padding-top: 25px;
+}
+p .text{
+font-size: 14pt;
+color: rgba(98, 98, 98, 255);
+text-align: left;
+}
+.button{
+    text-align: center;
+    height: 60px;
+    width: 164px;
+    color: black;
+    border: 1px solid;
+    margin-left: 550px;
+}
+a{
+    text-decoration: none;
+}
+.buttontext{
+font-size: 20pt;
+color: rgba(98, 98, 98, 255);
+padding-top: 15px;
+display: inline-block;
+width: 100%;
+height: 100%;
+
+}
+.buttontext a:hover{
+    color: black;
+}
+footer{
+    padding-top: 50px;
+}
