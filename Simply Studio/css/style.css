@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 1200px;
+    display: block;
+ }
+  header{
+    width: 960px;
+    height: 350px;
+    background: url(../img/Warstwa2@1X.png)no-repeat;
+    background-size: cover;
+    margin: auto;
+  }
+  .container{
+    width: 980px;
+    margin: auto;
+  }
+  ul{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+  }
+  li{
+    color: rgba(10, 10, 10, 255);
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+  }
+  p{
+    text-align:justify;
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1em; /* Отступ снизу */
+  }
+  nav{
+    display: block;
+    width: 980px;
+    text-align:center;
+    font-family: Calibri-Bold, RBNo2-Light, MyriadPro-Regular;
+  }
+.crown{
+    position: relative;
+    top: 55px;
+}
+  
+  .title{
+    text-align: center;
+    font-family: TrajanPro-Regular, MyriadPro-Regular;
+    width: 360px;
+    margin: auto;
+  }
+  .maintitle{
+    font-size: 40pt;
+    border-bottom: 1px solid black;
+    letter-spacing: 8px;
+    font-family: TrajanPro-Regular, MyriadPro-Regular;
+  }
+  .subtitle{
+    font-family: Calibri-Bold, TrajanPro-Regular, MyriadPro-Regular;
+    font-size: 25pt;
+    letter-spacing: 10px;
+    border-bottom: 1px solid black;
+  
+  }
+  .caption{
+    padding-top: 70px;
+    font-family: Calibri-Bold, Calibri, MyriadPro-Regular;
+    text-align: center;
+  }
+  .blocks{
+    width: 980px;
+    display: block;
+    padding-top: 60px;
+  }
+  .block{
+    width: 30%;
+    float: left;
+  }
+  .center{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .blockimg{
+    border-bottom: medium double black;
+  }
+  .ps{
+    padding-top: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  .blockcaption{
+    margin-top: 50px;
+    font-family: Calibri-Bold, Calibri, MyriadPro-Regular;
+  }
+  .blocktext{
+      padding-top: 40px;
+  }
+  .blockundertext{
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  span.braces {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+  }
+  .end{
+    width: 950px;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    
+  }
+  .endtext{
+    display: inline-block;
+    width: 60%;
+    font-size: 14px;
+    float: left;
+  }
+  .articles{
+    width: 30%;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 20px;
+    float: right;
+    text-align:justify;
+  }
+  footer{
+    width: 960px;
+    display: block;
+    margin: auto;
+    border-top: 1px solid black;
+  }
+  .design{
+    display: inline-block;
+    padding-top: 30px;
+  
+  }
+  .social{
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+  }
+  img.social1{
+      border-radius: 1px;
+  }
