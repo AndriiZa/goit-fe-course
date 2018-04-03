@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.block{
+    padding-top: 30px;  
+    text-align: center;
+    height: 545px;
+    width: 31%;
+    display: inline-block;
+    border: 1px solid #586652; /* Параметры границы */
+    background: #30353C; /* Цвет фона */
+    float: left;
+}
+.center{
+    margin-right: -13px;
+    margin-left: -13px;
+}
+h3{
+    color: white;
+}
+span.dollar{
+    color: #8BC341;
+    font-size: 25px;
+}
+span.dollarsigh{
+    font-size: 15px;
+    vertical-align: top;
+    padding-top: 2px;
+}
+span.month{
+    color: #8BC341;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.conditions{
+    padding-top: 30px;
+    color: #81867D;
+    font-size: 18px;
+}
+.button{
+    margin-top: 170px;
+    display: inline-block;
+    width: 190px;
+    height: 50px;
+    background: #65CC49;    
+    text-align: center;
+    border-radius: 20px;
+}
+.buttonpic{
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
