@@ -6,47 +6,50 @@
     width: 1200px;
     margin: auto;
 }
-.menu{
-    display: block;
+ul{
     text-align: center;
+    padding-top: 10px;
+}
+img{
+    display: block;
 }
 .menu-item{
     margin: 50px;
     display: inline-block;
 }
 .menu-item a{
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 18.6px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 16px;
     color: rgba(98, 98, 98, 255);
     text-align: center;
     text-decoration: none;
 
 }
 .menu-item a:hover{
-    color: #03a9f4;
+    color: #7cc8f8;
 }
 .blocks{
-    display: block;
-    margin-left: 150px;
+    text-align: center;
 }
-.block1, .block2, .block3, .block4, .block5, .block6{
+
+.block{
     width: 420px;
     display: inline-block;
-    padding-top: 39px;
+    padding-top: 34px;
 }
-.block3, .block4{
-    padding-top: 112px;
+
+.block:nth-child(n+3){
+    padding-top: 124px;
 }
-.block5, .block6{
-    padding-top: 119px;
-}
-.block2, .block4, .block6{
+.block:nth-child(2n){
     margin-left: 56px;
 }
 .caption{
 font-size: 25pt;
 color: rgba(98, 98, 98, 255);
 text-align: left;
+margin: 0 auto;
+padding-top: 27px;
 }
 p{
 font-size: 15px;
@@ -55,11 +58,10 @@ text-align: left;
 }
 .life{
     font-family: Ubuntu-Light, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 14.1px;
+    font-size: 14px;
     color: rgba(180, 173, 158, 255);
-    text-align: left;
-    padding-top: 11px;
-    height: 0px;
+    padding-top: 27px;
+    margin: 0 auto;
 }
 p .text{
 font-size: 14pt;
@@ -68,14 +70,14 @@ text-align: left;
 }
 button{
     font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
-font-size: 15pt;
-color: rgba(98, 98, 98, 255);
+    font-size: 15pt;
+    color: rgba(98, 98, 98, 255);
     height: 60px;
     width: 164px;
    display:block;
    position: relative;
    border: 1px solid black;
-   margin:0 auto; 
+   margin: 1px auto; 
 }
 a{
     text-decoration: none;
