@@ -1,0 +1,28 @@
+li{
+    float: left;
+    margin: 20px;
+    border: 2px solid black;
+    color: #0E1116;
+}
+li:hover{
+    background: green;
+}
+li:nth-child(1){
+    background: #88292F;
+}
+li:nth-child(2){
+    background: #5DB7DE;
+}
+li:nth-child(3){
+    background: #0D5D56;
+}
+li::before{
+    content: "\2192";
+
+}
+LI { list-style-type: none; }
+OL { counter-reset: list -1; }
+LI:before {
+counter-increment: list;
+content: counter(list) ". ";
+}

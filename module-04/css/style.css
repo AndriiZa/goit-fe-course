@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    font-family: ﻿Roboto-Light, ﻿Roboto-Black, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 18pt;
+    float: left;
+}
+.logo:first-letter{
+    color: rgba(26, 188, 156, 255);
+}
+nav{
+    float: right;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+li:nth-child(1){
+    color: rgba(26, 188, 156, 255);
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    display: block;
+}
+h1::after{
+    display: block;
+    content: " "; 
+    background-color: green; 
+    width: 164px;
+    height: 2px;;
+    text-align: center;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.blocks{
+    overflow: hidden;
+    list-style: none;
+	margin: 0 -20px 0 0;
+	padding: 0;
+}
+.block{
+    display: block;
+    float: left;
+    width: 255px;
+    height: 322px;
+    margin: 25px 50px 0 0;
+    text-align: center;
+}
+.block:nth-child(5){
+    
+}
+
+img{
+    width: 255px;
+    height: 260px;
+    display: block;
+    margin: 0 auto; 
+}
+.img{
+    overflow: hidden;
+    height: 50px;
+}
+p.imgtext{
+    float: left;
+    background: black;
+    width: 201px;
+    height: 40px;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: Roboto-Black;
+    font-size: 17pt;
+    color: rgba(255, 255, 255, 255);
+    text-indent: 1em;
+}
+p.price{
+    display: inline-block;
+    background: grey;
+    color: white;
+    height: 40px;
+    width: 54px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.img :hover{
+    background: rgb(108, 167, 108);
+}
