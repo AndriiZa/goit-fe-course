@@ -1,14 +1,15 @@
+* {
+    margin: 0; padding: 0;
+}
 body{
-    margin: 0;
-    padding: 0;
+    text-align: center; 
+    background: #fff; 
 }
 header{
-    width: 1200px;
-    margin: auto;
-    overflow: hidden;
+
 }
 .logo{
-    font-family: ﻿Roboto-Light, ﻿Roboto-Black, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
     font-size: 18pt;
     float: left;
 }
@@ -16,7 +17,8 @@ header{
     color: rgba(26, 188, 156, 255);
 }
 nav{
-    float: right;
+    position: relative;
+    left: 255px;
 }
 ul{
     text-align: center;
@@ -28,36 +30,47 @@ li:nth-child(1){
 li{
     display: inline-block;
     margin: 10px;
+    font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
+font-size: 10pt;
+text-align: right;
 }
 h1{
     text-align: center;
     display: block;
+    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+font-size: 40pt;
+color: rgba(81, 81, 81, 255);
+text-align: center;
+padding-top: 30px;
 }
 h1::after{
     display: block;
     content: " "; 
-    background-color: green; 
+    background-color: rgba(26, 188, 156, 255);
     width: 164px;
-    height: 2px;;
+    height: 4px;;
     text-align: center;
+    margin: 0 auto;
 }
 .container{
-    width: 1200px;
-    margin: auto;
+    width: 1120px;
+    margin: 0 auto;
     overflow: hidden;
+    
 }
 .blocks{
     overflow: hidden;
     list-style: none;
 	margin: 0 -20px 0 0;
-	padding: 0;
+    padding: 0;
+    text-align: center;
 }
 .block{
     display: block;
     float: left;
     width: 255px;
     height: 322px;
-    margin: 25px 50px 0 0;
+    margin: 25px 30px 0 0;
     text-align: center;
 }
 .block:nth-child(5){
@@ -65,8 +78,6 @@ h1::after{
 }
 
 img{
-    width: 255px;
-    height: 260px;
     display: block;
     margin: 0 auto; 
 }
@@ -98,4 +109,43 @@ p.price{
 }
 .img :hover{
     background: rgb(108, 167, 108);
+}
+.blocks2{
+    text-align: center;
+    overflow: hidden;
+    
+}
+.block2{
+    width: 350px;
+    float: left;
+    margin-right: 35px;
+}
+h2{
+    font-family: OpenSans-Semibold, AdobeInvisFont,MyriadPro-Regular;
+font-size: 15pt;
+color: rgba(85, 82, 82, 255);
+text-align: left;
+}
+
+.lasttext{
+    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+font-size: 12pt;
+color: rgba(85, 82, 82, 255);
+text-align: left;
+}
+button{
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15pt;
+    color: white;
+    height: 50px;
+    width: 155px;
+   display:block;
+   background: rgba(26, 188, 156, 255);
+}
+h2::after{
+    display: block;
+    content: " "; 
+    background-color: rgba(26, 188, 156, 255);
+    width: 164px;
+    height: 4px;
 }
