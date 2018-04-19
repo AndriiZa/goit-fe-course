@@ -29,26 +29,25 @@ img{
 }
 .blocks{
     text-align: center;
-    padding-top: 16px;
 }
 
 .block{
     width: 420px;
     display: inline-block;
-    padding-top: 34px;
+    padding-top: 50px;
 }
 
 .block:nth-child(n+3){
     padding-top: 127px;
 }
-.block:nth-child(2n){
-    margin-left: 56px;
+.block:nth-child(odd){
+    margin-right: 60px;
 }
 .block:nth-child(n+5){
     padding-top: 132px;
 }
 .caption{
-font-size: 25pt;
+font-size: 33px;
 color: rgba(98, 98, 98, 255);
 text-align: left;
 padding-top: 22px;
@@ -90,4 +89,5 @@ a{
 footer{
     display: block;
     padding-top: 47px;
+    padding-bottom: 10px;
 }
