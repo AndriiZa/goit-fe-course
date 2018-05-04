@@ -1,0 +1,95 @@
+.block{
+    width: 255px;
+    height: 325px;   
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.block img{
+    width: 255px;
+    height: 280px; 
+}
+.block-hover{
+    display: none;
+}
+.block:hover .block-hover{
+    position: absolute; 
+    top: 2%;
+    left: 3%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    display: block;
+    width: 240px;
+    height: 270px;
+}
+.button-click{
+    color: white;
+    background: none;
+    margin-right: 3px;
+    position: relative;
+    top: 30%;
+    width: 50px;
+    height: 50px;
+}
+.button-click:hover{
+    background-color: #1abc9c;
+}
+.button-card{
+    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+    background: #323232;
+    position: relative;
+    top: 35%;
+    width: 166px;
+    height: 50px;
+}
+.button-card::before{
+    content: "";
+}
+p.imgtext{
+    float: left;
+    background: #323232;
+    width: 201px;
+    height: 40px;
+    text-align: left;
+    margin: 0 auto;
+    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15pt;
+    color: rgba(255, 255, 255, 255);
+    text-indent: 1em;
+}
+p.imgtext::before{
+    content: "";
+    display: inline-block;
+    min-height: inherit;
+    height: 100%;
+    vertical-align: middle;
+}
+p.price{
+    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15pt;
+    text-align: center;
+    display: inline-block;
+    background: #8c8c8c;
+    color: white;
+    height: 40px;
+    width: 54px;
+    margin: 0 auto;
+}
+p.price::before{
+    content: "";
+    display: inline-block;
+    min-height: inherit;
+    height: 100%;
+    vertical-align: middle;
+}
+.block:hover p.imgtext{
+    background-color: #1abc9c;
+ }
+ 
+ .block:hover p.price{
+    background-color: #7fd9c7;
+ }
