@@ -16,11 +16,11 @@ img{
     display: block;
 }
 .menu-item{
-    margin: 47px;
+    padding: 47px;
     display: inline-block;
 }
 .menu-item a{
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-family: PlayfairDisplay;
     font-size: 16px;
     color: rgba(98, 98, 98, 255);
     text-align: center;
@@ -65,13 +65,13 @@ color: rgba(180, 173, 158, 255);
 text-align: left;
 }
 .life{
-    font-family: Ubuntu-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-family: Ubuntu;
     font-size: 14px;
     color: rgba(180, 173, 158, 255);
     padding-top: 28px;
 }
 .text{
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-family: PlayfairDisplay;
     font-size: 14px;
     color: rgba(98, 98, 98, 255);
     text-align: left;
@@ -79,7 +79,7 @@ text-align: left;
     line-height: 25px;
 }
 button{
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-family: PlayfairDisplay;
     font-size: 15pt;
     color: rgba(98, 98, 98, 255);
     height: 60px;
