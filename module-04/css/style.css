@@ -8,16 +8,17 @@ header{
     padding-top: 40px;
 }
 .logo{
-    font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-family: Roboto;
     font-size: 24pt;
     float: left;
+    font-weight: 300;
 }
 .logo:first-letter{
     color: rgba(26, 188, 156, 255);
+    font-weight: bold;
 }
 nav{
     float: right;
-    font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
 }
 ul{
     text-align: center;
@@ -26,7 +27,7 @@ ul{
 li{
     display: inline-block;
     margin: 9px;
-    font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
+    font-family: OpenSans, sans-serif;
     font-size: 10pt;
     text-align: right;
     font-weight: bold;
@@ -38,12 +39,13 @@ li{
     text-decoration: none;
     color: black;
 }
-li:first-child{
+
+.link-logo a:first-child li{
     color: rgba(26, 188, 156, 255);
 }
 h1{
     text-align: center;
-    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-family: Roboto;
     font-size: 36pt;
     color: rgba(81, 81, 81, 255);
     padding-bottom: 20px;
@@ -96,8 +98,8 @@ p.imgtext{
     height: 40px;
     text-align: left;
     margin: 0 auto;
-    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 15pt;
+    font-family: Roboto;
+    font-size: 17px;
     color: rgba(255, 255, 255, 255);
     text-indent: 1em;
 }
@@ -109,8 +111,8 @@ p.imgtext::before{
     vertical-align: middle;
 }
 p.price{
-    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 15pt;
+    font-family: Roboto;
+    font-size: 17px;
     text-align: center;
     display: inline-block;
     background: #8c8c8c;
@@ -149,7 +151,7 @@ p.price::before{
     margin-right: 30px;
 }
 h2{
-    font-family: OpenSans-Semibold, AdobeInvisFont,MyriadPro-Regular;
+    font-family: OpenSans;
     font-size: 19px;
     color: rgba(85, 82, 82, 255);
     text-align: left;
@@ -165,7 +167,7 @@ h2::after{
 }
 
 .lasttext{
-    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+    font-family: OpenSans;
     font-size: 14px;
     color: rgba(85, 82, 82, 255);
     text-align: left;
@@ -173,7 +175,7 @@ h2::after{
     line-height: 24px;
 }
 button{
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-family: PlayfairDisplay;
     font-size: 13pt;
     color: white;
     height: 50px;
