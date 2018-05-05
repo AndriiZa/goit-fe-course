@@ -7,18 +7,20 @@ header{
     position: relative;
 }
 .logo{
-    font-family: Roboto-Light;
-    font-size: 24pt;
+    font-family: Roboto;
+    font-size: 23pt;
     display: inline-block;
     position: relative;
     left: 15%;
     padding-top: 30px;
+    font-weight: 300;
 }
 .logo:first-letter{
     color: rgba(26, 188, 156, 255);
+    font-weight: bold;
 }
 nav{
-    font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
+    font-family: OpenSans;
     display: inline-block;
     position: relative;
     left: 797px;
@@ -34,9 +36,12 @@ li:nth-child(1){
 }
 li{
     display: inline-block;
-    font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 14px;
-    margin-right: 28px;
+    margin: 9px;
+    font-family: OpenSans, sans-serif;
+    font-size: 10pt;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 20px;
     text-transform: uppercase;
 }
 .main{
@@ -45,7 +50,6 @@ li{
     height: 600px;
     background-image: url(../img/slide4.png);
     background-size: cover;
-    margin: 0 auto;
     top: 22px;
 }
 .slider{
@@ -68,19 +72,17 @@ li{
     opacity: 0.7;
 }
 .slider-ctrl-prev{
-    font-family: Pe-icon-7-stroke, AdobeInvisFont, MyriadPro-Regular;
-font-size: 50pt;
-color: rgba(255, 255, 255, 255);
+    font-size: 50pt;
+    color: rgba(255, 255, 255, 255);
     left: 0;
 }
 .slider-ctrl-next{
-    font-family: Pe-icon-7-stroke, AdobeInvisFont, MyriadPro-Regular;
     font-size: 50pt;
     color: rgba(255, 255, 255, 255);
     right: 0;
 }
 .text{
-    font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-family: Roboto;
     color: white;
     position: relative;
     left: 17%;
@@ -151,7 +153,7 @@ h2{
     background-color: #1abc9c;
 }
 .button-card{
-    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+    font-family: OpenSans;
     font-size: 15px;
     color: rgba(255, 255, 255, 255);
     text-align: center;
@@ -174,8 +176,9 @@ p.imgtext{
     height: 40px;
     text-align: left;
     margin: 0 auto;
-    font-family: Roboto-Black;
-    font-size: 15pt;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
     color: rgba(255, 255, 255, 255);
     text-indent: 0.5em;
     line-height: 44px;
@@ -189,7 +192,7 @@ p.imgtext::before{
     vertical-align: middle;
 }
 p.price{
-    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-family: Roboto;
     font-size: 15pt;
     text-align: center;
     display: inline-block;
@@ -261,6 +264,7 @@ footer{
     position: absolute;
 }
 .ftext{
+    font-family: OpenSans;
     position: relative;
     text-align: center;
     color: white;
