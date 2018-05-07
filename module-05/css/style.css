@@ -9,30 +9,24 @@ header{
 .logo{
     font-family: Roboto;
     font-size: 23pt;
+    font-weight: 100;
     display: inline-block;
     position: relative;
     left: 15%;
     padding-top: 30px;
-    font-weight: 300;
 }
 .logo:first-letter{
     color: rgba(26, 188, 156, 255);
     font-weight: bold;
 }
 nav{
-    font-family: OpenSans;
-    display: inline-block;
     position: relative;
-    left: 797px;
-    bottom: 7px;
-    
+    bottom: 35px;
+    left: 328px;
 }
 ul{
     text-align: center;
     list-style-type: none;
-}
-li:nth-child(1){
-    color: rgba(26, 188, 156, 255);
 }
 li{
     display: inline-block;
@@ -43,6 +37,15 @@ li{
     font-weight: bold;
     margin-right: 20px;
     text-transform: uppercase;
+    
+}
+.link-logo{
+    text-decoration: none;
+    color: black;
+}
+
+.link-logo:hover{
+    color: rgba(26, 188, 156, 255);
 }
 .main{
     position: relative;
@@ -50,14 +53,14 @@ li{
     height: 600px;
     background-image: url(../img/slide4.png);
     background-size: cover;
-    top: 22px;
+    bottom: 11px;
 }
 .slider{
     position: relative;
-    width: 1100px;
+    width: 1110px;
     height: 110px;
     left: 244px;
-    top: 37%;
+    top: 38%;
     
 }
 .slider-ctrl{
@@ -71,15 +74,21 @@ li{
     transform: translateY(-50%);
     opacity: 0.7;
 }
-.slider-ctrl-prev{
-    font-size: 50pt;
-    color: rgba(255, 255, 255, 255);
+.slider-ctrl-prev::before{
+    content: "\e686";
+    font-family: 'Pe-icon-7-stroke';
+    font-size: 58px;
+    color: white;
     left: 0;
 }
 .slider-ctrl-next{
-    font-size: 50pt;
-    color: rgba(255, 255, 255, 255);
     right: 0;
+}
+.slider-ctrl-next::before{
+    font-family: FontAwesome;
+    content: "\f054";
+    font-size: 58px;
+    color: white;
 }
 .text{
     font-family: Roboto;
@@ -87,7 +96,7 @@ li{
     position: relative;
     left: 17%;
     width: 738px;
-    bottom: 15px;
+    bottom: 18px;
 }
 h1{
     font-size: 58px;
@@ -97,15 +106,15 @@ h2{
     font-size: 23px;
     font-weight: normal;
     position: relative;
-    top: 20px;
+    top: 19px;
 
 }
 .blocks{
     overflow: hidden;
     margin: 0 auto;
-    padding-top: 77px;
     position: relative;
     left: 245px;
+    padding-top: 80px;
 }
 .block{
     width: 255px;
@@ -119,13 +128,14 @@ h2{
     width: 1600px;
     background: #e9f0fd;
     padding-bottom: 95px;
+    padding-top: 82px;
 }
 .block:last-child{
     margin-right: -30px;
 }
 .block img{
     width: 255px;
-    height: 280px; 
+    height: 280px;
 }
 .block-hover{
     display: none;
@@ -151,9 +161,10 @@ h2{
 }
 .button-click:hover{
     background-color: #1abc9c;
+    cursor: pointer;
 }
 .button-card{
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 15px;
     color: rgba(255, 255, 255, 255);
     text-align: center;
@@ -166,8 +177,9 @@ h2{
     line-height: 20px;
 
 }
-.button-card::before{
-    content: "";
+.button-card:hover{
+    background-color: #1abc9c;
+    cursor: pointer;
 }
 p.imgtext{
     float: left;
@@ -238,14 +250,13 @@ p.price::before{
     font-size: 25px;
 }
 .span.cardtext{
-    font-family: OpenSans;
+    font-family: Open Sans;
 }
 h1.newcol{
     font-family: 'Roboto', sans-serif;
     font-size: 35pt;
     color: rgba(81, 81, 81, 255);
     text-align: center;
-    padding-top: 115px;
 }
 h1.newcol::after{
     display: block;
@@ -264,7 +275,7 @@ footer{
     position: absolute;
 }
 .ftext{
-    font-family: OpenSans;
+    font-family: Open Sans;
     position: relative;
     text-align: center;
     color: white;
