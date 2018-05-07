@@ -280,4 +280,8 @@ footer{
     text-align: center;
     color: white;
     top: 41px;
+    font-weight: 300;
+}
+span.theme{
+    color: #46bfa9;
 }
