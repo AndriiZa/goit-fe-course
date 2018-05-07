@@ -1,0 +1,207 @@
+ @font-face {
+    font-family: 'Wisdom Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Wisdom\ Script\ AJ.otf);
+  }
+  @font-face{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/montserrat-v12-latin-regular.ttf);
+  }
+  @font-face{
+    font-family: 'Roboto Slab';
+      font-style: bold;
+      font-weight: 700;
+      src: url(../fonts/roboto-slab-v7-latin-700.ttf);
+  }
+  @font-face{
+    font-family: 'Droid Serif';
+      font-style: italic;
+      font-weight: 400;
+      src: url(../fonts/DroidSerif-Italic.ttf);
+  }
+  @font-face{
+    font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: 400;
+      src: url(../fonts/roboto-slab-v7-latin-regular.ttf);
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  body{
+      width: 1400px;
+  }
+  nav{
+      display: flex;
+        width: 930px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+  }
+  .logo{
+      font-family: wisdom script;
+      color: #fed136;
+      font-size: 27px;
+      font-style: italic;
+      font-weight: 400;
+  }
+  ul{
+    width: 475px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 14px;
+   }
+  li{
+    font-family: Montserrat;
+      list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: #fed136;
+  }
+  h1{
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: Roboto Slab;
+      font-size: 40px;
+      padding-top: 107px;
+  }
+  .services{
+    font-family: Droid Serif;
+    color: rgba(119, 119, 119, 255);
+    text-align: center;
+    font-size: 16px;
+    padding-top: 7px;
+  }
+.blocks{
+    width: 930px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 76px;
+    padding-bottom: 120px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    align-items: center;
+    text-align: center;
+}
+.imgblock{
+    background-image: url(../img/Icon-Basket@1X.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 67px;
+    border: 3px solid #fed136;
+    border-radius: 36px;
+}
+.computer{
+    background-image: url(../img/Icon-Laptop@1X.png);
+}
+.security{
+    background-image: url(../img/Icon-Locked@1X.png);
+}
+h3{
+    font-family: Roboto Slab;
+    padding-top: 20px;
+}
+.blocktext{
+    font-family: Roboto Slab;
+    color: rgba(119, 119, 119, 255);
+    font-size: 13px;
+    padding-top: 9px;
+    line-height: 1.6;
+}
+footer{
+    height: 677px;
+    width: 1400px;
+    background: #222222;
+    background-image: url(../img/Map\ Image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.contacts{
+    width: 942px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Roboto Slab;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 98px;
+}
+.contactstext{
+    text-align: center;
+    color: rgba(119, 119, 119, 255);
+    font-family: Droid Serif;
+    font-style: italic;
+    padding-top: 10px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    height: 215px;
+    padding-top: 74px;
+
+
+}
+input{
+    width: 455px;
+    height: 50px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-indent: 1.5em;
+}
+.message{
+    height: 210px;
+}
+form{
+    width: 460px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.bigform{
+    font-size: 50px;
+}
+.messageinput{
+    height: 210px;
+    width: 460px;
+}
+form:nth-child(2){
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.button{
+    font-family: Monrserrat;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 255);
+    width: 240px;
+    height: 66px;
+    border: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    background: #fed136;
+    text-align: center;
+    position: relative;
+    margin-top: 59px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-indent: 1em;
+}
