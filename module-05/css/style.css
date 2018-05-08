@@ -131,10 +131,6 @@ h2{
 .block:last-child{
     margin-right: -30px;
 }
-.block img{
-    width: 255px;
-    height: 280px;
-}
 .block-hover{
     display: none;
 }
@@ -182,6 +178,10 @@ h2{
     cursor: pointer;
     border: none;
 }
+.blocktextprice{
+    position: relative;
+    bottom: 43px;
+}
 p.imgtext{
     float: left;
     background: #323232;
@@ -194,16 +194,10 @@ p.imgtext{
     font-size: 18px;
     color: rgba(255, 255, 255, 255);
     text-indent: 0.5em;
-    line-height: 44px;
+    line-height: 40px;
 
 }
-p.imgtext::before{
-    content: "";
-    display: inline-block;
-    min-height: inherit;
-    height: 100%;
-    vertical-align: middle;
-}
+
 p.price{
     font-family: Roboto;
     font-size: 15pt;
@@ -213,7 +207,7 @@ p.price{
     color: white;
     height: 40px;
     width: 54px;
-    line-height: 44px;
+    line-height: 40px;
     margin: 0 auto;
 }
 p.price::before{
