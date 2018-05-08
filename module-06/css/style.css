@@ -126,6 +126,7 @@ h2::after{
 .block2{
     position: relative;
     
+    
 }
 .blocks2{
     height: 540px;
@@ -133,6 +134,7 @@ h2::after{
     justify-content: space-between;
     position: relative;
     padding-top: 95px;
+    
 }
 .block2text{
     font-family: Roboto;
@@ -148,8 +150,13 @@ h2::after{
     position: absolute;
     opacity: 0;
     transition: transform 200ms linear;
-    bottom: 12%;
+    bottom: 0;
     left: 0;
+}
+.blockefect{
+    position: relative;
+    background: #95e1d3;
+    height: 470px;
 }
 .block2:hover .blockhover{
     opacity: 1;
@@ -160,8 +167,13 @@ h2::after{
     color: #fff;
     width: 383px;
     height: 473px;
-    transform: translate(-10px, -10px);
     
+}
+.block2{
+    transition: transform 200ms linear;
+}
+.block2:hover{
+    transform: translate(-10px, -10px);
 }
 .button-click{
     background: #fce38a;
