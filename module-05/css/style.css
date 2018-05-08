@@ -72,11 +72,10 @@ li{
     background-color: #1abc9c;
     border: none;
     transform: translateY(-50%);
-    opacity: 0.7;
 }
 .slider-ctrl-prev::before{
-    content: "\e686";
-    font-family: 'Pe-icon-7-stroke';
+    font-family: FontAwesome;
+    content: "\f053";
     font-size: 58px;
     color: white;
     left: 0;
@@ -162,6 +161,7 @@ h2{
 .button-click:hover{
     background-color: #1abc9c;
     cursor: pointer;
+    border: none;
 }
 .button-card{
     font-family: Open Sans;
@@ -180,6 +180,7 @@ h2{
 .button-card:hover{
     background-color: #1abc9c;
     cursor: pointer;
+    border: none;
 }
 p.imgtext{
     float: left;
