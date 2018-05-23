@@ -22,41 +22,58 @@
 }
 body {
     margin: 0 auto;
-    margin-bottom: 50px;
+	width: 100%;
+	min-width: 320px;
 }
-.bg {
+
+header {
+	margin: 0 auto;
+	height: 100%;
 	background-image: url(../img/bgdesctop.jpeg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	min-height: 540px;
 }
-header {
+.main-section{
+	width: 320px;
+	min-height: 170px;
 	margin: 0 auto;
-	width: 322px;
-	height: 542px;
+	margin-top: 29px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 .container {
 	width: 322px;
 	margin: 0 auto;
-	margin-bottom: 50px;
+	padding-top: 63px;
+	padding-bottom: 50px;
 }
 .logosub {
 	padding-top: 19px;
 }
 ul {
-	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	width: 170px;
+	justify-content: space-around;
 }
 li {
 	font-family: Montserrat;
 	color: rgba(255, 255, 255, 255);
-	display: inline-block;
 	font-size: 14px;
-	text-align: center;
+	list-style-type: none;
 	cursor: pointer;
 	padding: 10px;
-    margin-right: 13px;
     border: 2px solid transparent;
 
+}
+a{
+	color: rgba(255, 255, 255, 255);
+	text-decoration: none;
 }
 li:hover {
 	border: 2px solid white;
@@ -78,22 +95,17 @@ h1 {
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 255);
 	text-align: center;
-	margin-top: 29px;
 	font-size: 28px;
 }
 .caption_text {
-	margin: 0 auto;
 	width: 220px;
 	font-family: Roboto;
 	font-weight: 100;
 	font-size: 18px;
 	color: rgba(255, 255, 255, 255);
-	margin-top: 12px;
 	text-align: center;
 }
 .caption_button {
-    display: block;
-    margin: 0 auto;
 	font-family: Montserrat;
 	font-size: 15px;
 	color: rgba(255, 255, 255, 255);
@@ -103,7 +115,6 @@ h1 {
 	border: none;
 	border-radius: 20px;
 	cursor: pointer;
-	margin-top: 16px;
 	outline: none;
 }
 .blocks {
@@ -163,7 +174,6 @@ img {
 	font-family: Montserrat;
 	font-weight: 700;
 	font-size: 22px;
-	margin-top: 64px;
 }
 .block_name {
 	text-align: center;
@@ -181,6 +191,9 @@ img {
 	margin-top: 14px;
 }
 .block_button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
 	font-family: Montserrat;
 	font-size: 15px;
 	color: #ff4e50;
@@ -192,22 +205,18 @@ img {
 	cursor: pointer;
 	outline: none;
 }
-.button_block_poss {
-	margin: 0 auto;
-	width: 280px;
-}
 @media (min-width: 765px) {
-	header {
-		width: 765px;
-		margin: 0 auto;
-    }
-    .bg{
-        min-height: 700px;
-    }
 	.container {
 		width: 765px;
 		margin: 0 auto;
-		margin-bottom: 50px;
+	}
+	header{
+		min-height: 700px;
+	}
+	.main-section{
+		width: 490px;
+		margin-top: 215px;
+		min-height: 235px;
 	}
 	.logosub {
 		width: 675px;
@@ -223,23 +232,21 @@ img {
 		padding: 0;
 		order: -1;
 	}
+	ul{
+		margin-right: 0;
+	}
 	h1 {
-		padding-top: 215px;
 		width: 490px;
 		margin: 0 auto;
 		font-size: 50px;
 	}
 	.caption_text {
 		width: 490px;
-		margin-top: 30px;
 		font-size: 25px;
 	}
-	.block_caption {
-		margin-top: 69px;
-	}
+
 	.caption_button {
 		width: 226px;
-		margin-top: 31px;
 	}
 	.blocks {
 		margin: 0 auto;
@@ -276,17 +283,13 @@ img {
 	}
 }
 @media (min-width: 1440px) {
-	header {
-		width: 1440px;
-		margin: 0 auto;
-	}
+
 	.logosub {
 		width: 940px;
 	}
 	.container {
 		margin: 0 auto;
 		width: 1440px;
-		margin-bottom: 50px;
 	}
 	.blocks {
 		width: 955px;
