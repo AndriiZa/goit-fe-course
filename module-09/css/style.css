@@ -46,8 +46,6 @@ header {
 	justify-content: space-between;
 }
 .section {
-	width: 280px;
-	margin: 0 auto;
 	padding-top: 63px;
 	padding-bottom: 50px;
 }
@@ -117,10 +115,9 @@ h1 {
 .blocks {
 	margin-top: 12px;
 }
-/* .block {
+.block {
 	margin-bottom: 23px;
-	width: 220px;
-} */
+}
 img {
 	border-radius: 100px;
 	width: 122px;
@@ -170,6 +167,7 @@ img {
 	font-family: Montserrat;
 	font-weight: 700;
 	font-size: 22px;
+	padding-bottom: 20px;
 }
 .block_name {
 	text-align: center;
@@ -201,10 +199,13 @@ img {
 	cursor: pointer;
 	outline: none;
 }
+@media (max-width: 500px){
+	.section{
+		width: 260px;
+		margin: 0 auto;
+	} 
+}
 @media (min-width: 748px) {
-	.section {
-		width: 500px;
-	}
 	header{
 		min-height: 700px;
 	}
@@ -227,18 +228,6 @@ img {
 	.caption_button {
 		width: 226px;
 	}
-	.block:nth-child(1) {
-		order: 0;
-	}
-	.block:nth-child(2) {
-		order: 1;
-	}
-	.block:nth-child(3) {
-		order: 0;
-	}
-	.block:nth-child(4) {
-		order: 2;
-	}
 	.button_block_poss {
 		width: 193px;
 		margin-top: 12px;
@@ -250,8 +239,5 @@ img {
 @media (min-width: 940px) {
 	.blocktext {
 		font-size: 16px;
-	}
-	.section{
-		width: 940px;
 	}
 }
