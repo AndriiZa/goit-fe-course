@@ -27,21 +27,21 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 320px) {
   .container {
-    max-width: 320px;
+    max-width: 280px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 748px) {
   .container {
     max-width: 492px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 942px) {
   .container {
-    max-width: 940px;
+    max-width: 942px;
   }
 }
 
