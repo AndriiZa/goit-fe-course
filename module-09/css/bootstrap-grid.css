@@ -292,7 +292,7 @@ html {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -464,7 +464,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 748px) {
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -636,7 +636,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 940px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
