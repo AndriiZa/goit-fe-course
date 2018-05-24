@@ -199,12 +199,7 @@ img {
 	cursor: pointer;
 	outline: none;
 }
-@media (max-width: 500px){
-	.section{
-		width: 260px;
-		margin: 0 auto;
-	} 
-}
+
 @media (min-width: 748px) {
 	header{
 		min-height: 700px;
