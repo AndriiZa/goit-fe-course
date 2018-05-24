@@ -36,7 +36,6 @@ header {
 	min-height: 540px;
 }
 .main-section{
-	width: 320px;
 	min-height: 170px;
 	margin: 0 auto;
 	margin-top: 29px;
@@ -223,16 +222,7 @@ img {
 	.caption_button {
 		width: 226px;
 	}
-	.button_block_poss {
-		width: 193px;
-		margin-top: 12px;
-	}
 	.block_button {
 		width: 193px;
-	}
-}
-@media (min-width: 940px) {
-	.blocktext {
-		font-size: 16px;
 	}
 }
