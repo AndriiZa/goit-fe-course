@@ -100,19 +100,19 @@
     cursor: pointer;
     margin-top: 95px;
 }
-.section{
+.services{
     padding-top: 6px;
 }
-.section__text{
+.services__title{
     font-family: Kaushan Script;
     font-size: 24px;
 }
-.section__title{
+.services__subtitle{
     font-family: Montserrat;
     margin-top: 13px;
     font-size: 30px;
 }
-.section__title::after{
+.services__subtitle::after{
     display: block;
     content: " "; 
     background-color: #f38181;
@@ -122,7 +122,7 @@
     margin: 0 auto;
     margin-top: 32px;
 }
-.features{
+.services-features{
     width: 1140px;
     margin: auto;
     margin-top: 65px;
@@ -130,15 +130,15 @@
     flex-wrap: wrap;
     justify-content: space-between;  
 }
-.features__item{
+.services-features__item{
     width: 286px;
     position: relative;
     margin-bottom: 40px;
 }
-.features__item:nth-child(n+4){
+.services-features__item:nth-child(n+4){
     margin-bottom: -40px;
 }
-.features__icon::before{
+.services-features__icon::before{
     content: '';
     display: block;
     height: 32px;
@@ -149,32 +149,32 @@
     position: absolute;
     left: -50px;
 }
-.features__icon-alarm::before{
+.services-features__icon-alarm::before{
     background-image: url(../img/ALARM@1X.png);
 }
-.features__icon-linegraph::before{
+.services-features__icon-linegraph::before{
     background-image: url(../img/linegraph.png);
 }
-.features__icon-computer::before{
+.services-features__icon-computer::before{
     background-image: url(../img/COMPUTER\ _\ OK@1X.png);
 }
-.features__icon-book::before{
+.services-features__icon-book::before{
     background-image: url(../img/BOOK\ 2@1X.png);
 }
-.features__icon-home::before{
+.services-features__icon-home::before{
     background-image: url(../img/HOME@1X.png);
 }
-.features__icon-image::before{
+.services-features__icon-image::before{
     background-image: url(../img/IMAGE@1X.png);
 }
-.features__title{
+.services-features__title{
     font-family: Montserrat;
     text-transform: uppercase;
     color: rgba(51, 51, 51, 255);
     font-size: 14px;
     font-weight: normal;
 }
-.features__text{
+.services-features__text{
     font-family: Roboto;
     color: rgba(153, 153, 153, 255);
     font-size: 15px;
@@ -184,6 +184,15 @@
 }
 .section-about{
     padding-top: 86px;
+}
+.section-about__title{
+    font-family: Kaushan Script;
+    font-size: 24px;
+}
+.section-about__subtitle{
+    font-family: Montserrat;
+    margin-top: 13px;
+    font-size: 30px;
 }
 .section-about__text{
     font-family: Roboto;
